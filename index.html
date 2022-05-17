@@ -5,21 +5,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- reset.css is from an external source -->
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Web Portfolio | Richard Zhang</title>
 </head>
 
 <body>
-
+    <!-- This is the header that is fixed to the top of the page. Also the navbar -->
     <header>
 
         <nav class="navbar">
-
+            <!-- on click, goes to the top of the page -->
             <a href="#" class="link-home">
                 <span>Richard Zhang</span>
             </a>
-
+            <!-- navigation links within the page -->
             <ul class="nav-links">
 
                 <li class="nav-item"> <a href="#about">About</a> </li>
@@ -33,28 +34,29 @@
     </header>
 
     <main>
-
+        <!-- hero-image of me -->
         <div class="chapter" id="hero">
 
             <div class="hero-text">
 
                 <h1 class="hero-header">My name is Richard Zhang</h1>
                 <p class="hero-description">and I'm an aspiring developer</p>
-
+                <!-- The button actually opens an email form to my email address -->
                 <a href= "mailto: richardzhiyuanzhang@gmail.com"><button>Contact me</button></a>
 
             </div>
 
         </div>
-
+        <!-- about me section -->
         <section class="chapter" id="about">
 
             <h1 class="banner">About Me</h1>
 
-
+            <!-- Image of me. same one as earlier. Chose not to use different sized images -->
+            <!-- I know you can, and how to, but it resizes down nicely. -->
             <img class="columns-2 portrait" src="./assets/images/Portrait.jpg" alt="Photo of Richard Zhang" />
 
-
+            <!-- a little about me -->
             <div class="columns-2 my-info">
                 <h2>Me & Coding</h2>
                 <p>
@@ -70,13 +72,15 @@
                     to trying to learn these things on my own before learning of this bootcamp. However, I did spend a
                     year and a half in a Java course in high-school (which was over ten years ago). I also learned a bit
                     about HTML and CSS in a design elective during my forensic science program. Most recently, I took a
-                    statistics course and the professor had as coding in LaTeX to create PDF documents. I really wish I
+                    statistics course and the professor had us coding in LaTeX to create PDF documents. I really wish I
                     looked into programming earlier, because I've been really liking learning how to code.
                 </p>
             </div>
 
         </section>
 
+        <!-- projects section with placeholder projects. links currently don't go to actual -->
+        <!-- projects. just links back to top of section -->
         <section class="chapter" id="projects">
 
             <h1 class="banner">Projects</h1>
@@ -108,10 +112,13 @@
 
         </section>
 
+        <!-- contact form -->
         <section class="chapter" id="contact">  
 
             <h1 class="banner">Contact Me</h1>
-
+            <!-- This form doesn't actually do anything right now. Just wanted to create a form -->
+            <!-- Will add functionality in the future or for a future project. On research -->
+            <!-- functionality is supposed to be handled in the back-end and/or with JS? -->
             <form id="contact-me" action="" method="post" enctype="multipart/form-data" name="email-form">
 
               <h2>Contact Form</h2>
@@ -143,6 +150,7 @@
 
     </main>
 
+    <!-- Footer with my contact information -->
     <footer>
 
         <p>
